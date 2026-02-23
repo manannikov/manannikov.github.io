@@ -2,14 +2,108 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Пустая страница</title>
+    <title>Образы АнтиБК</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f6f9;
+            color: #333;
+        }
+        header {
+            background: #1f2937;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .products {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .price {
+            font-size: 20px;
+            font-weight: bold;
+            margin: 15px 0;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #2563eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+        .btn:hover {
+            background: #1d4ed8;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #e5e7eb;
+            margin-top: 40px;
+        }
+    </style>
 </head>
 <body>
-    Приветствую! Делаю на заказ образы, именнные вещи, образы зверей и другой графический контент для АнтиБК.
-Сроки выполнения от 1 дня, стоимость обсуждается.
-Ниже примеры работ переделанных стандартных образов АнтиБК.
-<img src="/img/1.jpg" alt="Образ 1">
-<img src="/img/2.jpg" alt="Образ 2">
+
+<header>
+    <h1>Студия Камаро</h1>
+    <p>Услуги графического дизайна</p>
+</header>
+
+<section>
+    <h2>Приветствую!</h2>
+    <p>Я создаю образы, именнные вещи, образы зверей и другой графический контент для АнтиБК.</p>
+    <p>Сроки выполнения от 1 дня, стоимость обсуждается.</p>
+    <p>Ниже примеры работ переделанных стандартных образов АнтиБК.</p>
+</section>
+
+<section>
+    <h2>Наши продукты</h2>
+    <div class="products">
+        
+        <div class="card">
+            <img src="https://via.placeholder.com/300x200" alt="Лендинг">
+            <h3>Лендинг под ключ</h3>
+            <p>Одностраничный сайт для презентации продукта или услуги.</p>
+            <div class="price">от 15 000 ₽</div>
+            <a href="#" class="btn">Заказать</a>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/300x200" alt="Корпоративный сайт">
+            <h3>Корпоративный сайт</h3>
+            <p>Многостраничный сайт для компании с индивидуальным дизайном.</p>
+            <div class="price">от 35 000 ₽</div>
+            <a href="#" class="btn">Заказать</a>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    © 2026 Веб-студия. Все права защищены.
+</footer>
 
 </body>
 </html>
